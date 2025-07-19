@@ -8,8 +8,9 @@ An interactive and user-friendly flashcard generator built with **Streamlit**, p
 ## Features
 
 - **Upload Text or PDF**: Accepts `.txt` and `.pdf` files as input sources.
+
 - **LLM-Powered Flashcard Generation**:
-  - Uses Together AI's `mistralai/Mistral-7B-Instruct-v0.3` model.
+  - Uses `mistralai/Mistral-7B-Instruct-v0.3` model via Together AI's API.
   - Generates clean and relevant Q&A pairs from input content.
 - **Edit Flashcards**: Inline editing of generated questions and answers.
 - **Add New Cards**: Manually add custom flashcards.
@@ -27,12 +28,6 @@ An interactive and user-friendly flashcard generator built with **Streamlit**, p
 ## GIF Demo
 
 ![Flashcard Generator Demo](media/MemoryForge_demo.gif)
-
-### Input Example
-![Input Example](media/input_example.png)
-
-### Output Example
-![Output Example](media/output_example.png)
 
 ---
 
